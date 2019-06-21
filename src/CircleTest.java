@@ -4,6 +4,8 @@ public class CircleTest {
 
         System.out.println("Hello");
         System.out.println("Currently just testing Github");
+
+        a + b = 10;
     }
 
 }
