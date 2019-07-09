@@ -2,17 +2,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello");
-        System.out.println("Currently just testing Github");
-// Testing
-        int a = 0;
-        int b = 0;
-        int c = 0;
-        a += 5;
-        b += 6;
-        c = a + b;
+        Account seanAccount = new Account();
+        seanAccount.withdrawl(100.0);
 
-        System.out.println(c);
+        seanAccount.deposit(50.0);
+        seanAccount.withdrawl(100.0);
+
+        seanAccount.deposit(51.0);
+        seanAccount.withdrawl(100.0);
+
     }
 
 }
